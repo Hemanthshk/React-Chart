@@ -97,6 +97,7 @@ function PopChart() {
     <div className="grid-container">
       <div className="chart-container">
         <div className="mixed-chart">
+          {/* Chart options */}
           <Chart options={chartOptions} series={chartOptions.series} type="bar" width="100%" />
         </div>
       </div>
