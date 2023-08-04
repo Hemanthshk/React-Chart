@@ -97,11 +97,14 @@ function PopChart() {
     <div className="grid-container">
       <div className="chart-container">
         <div className="mixed-chart">
-          {/* Chart options */}
           <Chart options={chartOptions} series={chartOptions.series} type="bar" width="100%" />
         </div>
       </div>
+<<<<<<< HEAD
       <div className="button-container"> 
+=======
+      <div className="button-container">
+>>>>>>> 637d3fc4c09cbe0454e3e2a730a0784e625dfd42
         <button
           className={`button ${isHorizontal ? 'horizontal-button' : 'vertical-button'}`}
           id="change"
