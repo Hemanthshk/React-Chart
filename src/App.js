@@ -1,11 +1,10 @@
 import './App.css';
-import PopChart from './components/PopChart.jsx';
-
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
     <div className="container">  
-      <PopChart />
+      <Dashboard />
     </div>
   );
 }
